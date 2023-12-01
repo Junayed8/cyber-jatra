@@ -1,0 +1,8 @@
+#meta-title{
+    color: #D02AF3;
+}
+.fade-in-text {
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 5s;
+  }

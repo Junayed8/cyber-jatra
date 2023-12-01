@@ -1,0 +1,21 @@
+.icon{
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+}
+.card{
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: bisque;
+}
+.career-title{
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+
+}
+#card:hover{
+    background-color: rgb(46, 109, 109);
+}

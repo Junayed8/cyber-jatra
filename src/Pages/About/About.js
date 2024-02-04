@@ -9,7 +9,7 @@ const About = () => {
                     <div className="container" data-aos="fade-up">
 
                         <header className="section-header m-4">
-                            <h3>About Us</h3>
+                            <h3 className='mt-4'>About Us</h3>
                             <p>Developing Cutting-Edge Software Solutions And Services.</p>
                         </header>
 

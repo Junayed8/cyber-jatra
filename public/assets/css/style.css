@@ -9,6 +9,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+  color: #283d50;
+  background-color: #283d50;
+}
+
 body {
   background: #fff;
   color: #444;
@@ -56,7 +61,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007bff;
+  background: #1f2d3d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -724,8 +729,9 @@ section {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #1c69bc;
+  border-color: #e553e3;
+  transform: translate(-10px, -15px) rotate(-5deg) scale(0.9);
 }
 
 #why-us .card i {

@@ -51,62 +51,6 @@ const PortfolioDetails=()=> {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/app2.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4><a href="portfolio-details.html">App 2</a></h4>
-                                    <p>App</p>
-                                    <div>
-                                        <a href="assets/img/portfolio/app2.jpg" className="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="App 2"><i className="bi bi-plus"></i></a>
-                                        <a href="portfolio-details.html" className="link-details" title="More Details"><i className="bi bi-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/card2.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4><a href="portfolio-details.html">Card 2</a></h4>
-                                    <p>Card</p>
-                                    <div>
-                                        <a href="assets/img/portfolio/card2.jpg" className="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Card 2"><i className="bi bi-plus"></i></a>
-                                        <a href="portfolio-details.html" className="link-details" title="More Details"><i className="bi bi-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/web2.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4><a href="portfolio-details.html">Web 2</a></h4>
-                                    <p>Web</p>
-                                    <div>
-                                        <a href="assets/img/portfolio/web2.jpg" className="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 2"><i className="bi bi-plus"></i></a>
-                                        <a href="portfolio-details.html" className="link-details" title="More Details"><i className="bi bi-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/app3.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4><a href="portfolio-details.html">App 3</a></h4>
-                                    <p>App</p>
-                                    <div>
-                                        <a href="assets/img/portfolio/app3.jpg" className="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="App 3"><i className="bi bi-plus"></i></a>
-                                        <a href="portfolio-details.html" className="link-details" title="More Details"><i className="bi bi-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
                                 <img src="assets/img/portfolio/card1.jpg" className="img-fluid" alt="" />

@@ -1,4 +1,3 @@
-import logo from '../../cyber-jatra/src/images/logo.png';
 import './App.css';
 import Home from './Pages/Home/Home';
 import PortfolioDetails from './Pages/PortfolioDetails/PortfolioDetails';
@@ -12,6 +11,7 @@ import Contact from './Pages/Contact/Contact';
 import Review from './Pages/Review/Review';
 import Career from './Pages/Career/Career';
 function App() {
+  
   return (
     <>
     <Header></Header>

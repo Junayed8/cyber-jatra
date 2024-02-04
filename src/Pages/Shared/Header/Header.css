@@ -3,7 +3,8 @@
 
 }
 .navbar-brand{
-color: #fff;
+color: var(--main-heading); 
+/* #fff */
 }
 .navbar ul.navbar-nav a {
     font-family: 'Raleway', sans-serif;
@@ -14,16 +15,31 @@ color: #fff;
     color: #35393d;
 }
 
+.dark-theme{
+  --main-heding: #5f99be;
+  --para-clr: #fff;
+  --btn-bg-color: #5f99be;
+  --btn-text-color: #fff;
+  --bg-clr: #111b20;
+}
+
+.light-theme{
+  --main-heading: #5f99be;
+  --para-clr: #333;
+  -btn-bg-color: #111b20;
+  --btn-text-clr: #fff;
+  --bg-clr: #fff;
+}
+
 .nav-border {
   color: #423d3d;
 }
 
 #logo{
-  width: 90px;
-  height: 60px;
+  width: 95px;
+  height: 82px;
   justify-content: space-between;
   margin-right: 50px;
-  background-color: #333;
 }
 
 .navbar ul.navbar-nav a:hover {
@@ -40,7 +56,8 @@ color: #fff;
 }
 
 .navbar button.navbar-toggle > span.icon-bar {
-    background: white;
+    background: var(--main-heading);
+    /* white */
 }
 
 .navbar {
@@ -57,6 +74,7 @@ color: #fff;
     
 }
 
+
 .navbar.scrolled #signIn {
     background-color: #ff854f;
     border: none;
@@ -66,7 +84,8 @@ color: #fff;
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    /* background-color: #f2f2f2; */
+    background-color: var(--main-heading);
     overflow: hidden;
   }
   
@@ -74,7 +93,7 @@ color: #fff;
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -114,7 +133,7 @@ color: #fff;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: var(--para-clr);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

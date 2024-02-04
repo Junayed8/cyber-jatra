@@ -1,4 +1,9 @@
 import React from 'react';
+import image1 from '../../images/partners/BARC-Logo.png';
+import image2 from '../../images/partners/GIFS_Logo.png';
+import image3 from '../../images/partners/PIFDC.png';
+import image4 from '../../images/partners/kfg_logo.png';
+import image5 from '../../images/partners/WD_Logo.png';
 
 const Review = () => {
     return (
@@ -7,7 +12,7 @@ const Review = () => {
                 <div className="container" data-aso="zoom-in">
 
                     <header className="section-header">
-                        <h3>Testimonials</h3>
+                        <h3 className='mt-4'>Testimonials</h3>
                     </header>
 
                     <div className="row justify-content-center">
@@ -18,29 +23,29 @@ const Review = () => {
 
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonial-1.jpg" className="testimonial-img" alt="" />
-                                            <h3>Saul Goodman</h3>
-                                            <h4>Ceo &amp; Founder</h4>
+                                            <img src={image1} className="testimonial-img" alt="" />
+                                            <h3>BARC</h3>
+                                            <h4>Website link:<a href="url">https://barc.gov.bd/</a> </h4>
                                             <p>
-                                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                              Cyber Jata is very proffessional. Good service.
                                             </p>
                                         </div>
                                     </div>
 
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonial-2.jpg" className="testimonial-img" alt="" />
-                                            <h3>Sara Wilsson</h3>
-                                            <h4>Designer</h4>
+                                            <img src={image2} className="testimonial-img" alt="" />
+                                            <h3>Global Institute for Food Security</h3>
+                                            <h4>Website link:<a href="url">https://gifs.ca/</a> </h4>
                                             <p>
-                                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                              Cyber Jata is very proffessional. Good service.
                                             </p>
                                         </div>
                                     </div>
 
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonial-3.jpg" className="testimonial-img" alt="" />
+                                            <img src={image3} className="testimonial-img" alt="" />
                                             <h3>Jena Karlis</h3>
                                             <h4>Store Owner</h4>
                                             <p>
@@ -51,7 +56,7 @@ const Review = () => {
 
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonial-4.jpg" className="testimonial-img" alt="" />
+                                            <img src={image4} className="testimonial-img" alt="" />
                                             <h3>Matt Brandon</h3>
                                             <h4>Freelancer</h4>
                                             <p>
@@ -62,7 +67,7 @@ const Review = () => {
 
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonial-5.jpg" className="testimonial-img" alt="" />
+                                            <img src={image5} className="testimonial-img" alt="" />
                                             <h3>John Larson</h3>
                                             <h4>Entrepreneur</h4>
                                             <p>

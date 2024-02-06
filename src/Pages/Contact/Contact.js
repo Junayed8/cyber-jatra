@@ -1,4 +1,5 @@
 import React from 'react';
+import './contact.css';
 
 const Contact = () => {
     return (
@@ -40,8 +41,8 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-6">
-                        <div className="row ">
+                    {/* <div className="col-lg-6 text-center">
+                        <div className="row align-items-end">
                             <div className="col-md-5 info ">
                                 <i className="bi bi-geo-alt"></i>
                                 <p>Kafrul, Dhaka</p>
@@ -55,6 +56,23 @@ const Contact = () => {
                                 <p>+8801813119559</p>
                             </div>
                         </div>
+                    </div> */}
+
+                    <div class="container text-center">
+                    <div class="row align-items-end">
+                        <div class="col">
+                            <i className="bi bi-envelope sticker"></i>
+                            <p>info@cyberjatra.com</p>
+                        </div>
+                        <div class="col">
+                           <i className="bi bi-geo-alt sticker"></i>
+                            <p>Kafrul, Dhaka</p>
+                        </div>
+                        <div class="col">
+                            <i className="bi bi-phone sticker"></i>
+                            <p>+8801813119559</p>
+                        </div>
+                    </div>
                     </div>
 
                 </div>

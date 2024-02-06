@@ -1,4 +1,5 @@
 import React from 'react';
+import './Service.css';
 
 const Service = () => {
     return (
@@ -15,7 +16,7 @@ const Service = () => {
 
                         <div className="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
                             <div className="box">
-                                <div className="icon"><i className="bi bi-briefcase" style={{color: '#ff689b'}}></i></div>
+                                <div className="icon" id='icon1'><i className="bi bi-briefcase" style={{color: '#ff689b'}}></i></div>
                                 <h4 className="title"><a href="">IT Solutions</a></h4>
                                 <p className="description">We provide the best IT solution and consultancy for your tech support.</p>
                             </div>

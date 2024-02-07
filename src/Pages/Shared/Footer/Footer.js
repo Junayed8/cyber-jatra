@@ -13,7 +13,7 @@ const Footer = () => {
                                 <p>We offer simple solutions for all types of Web Design, Development & IT needs. We provide thorough management solutions crafted to meet your unique requirements ..</p>
                             </div>
 
-                            <div className="col-lg-2 col-md-6 footer-links">
+                            <div className="col-lg-4 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
                                     <li><a href="#">Home</a></li>
@@ -24,7 +24,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 footer-contact">
+                            <div className="col-lg-4 col-md-6 footer-contact">
                                 <h4>Office</h4>
                                 <p>
                                   Kafrul, Dhaka<br />
@@ -41,19 +41,6 @@ const Footer = () => {
                                     <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
                                 </div>
 
-                            </div>
-
-                            <div className="col-lg-3 col-md-6 footer-newsletter">
-                                <h4>Contact Us</h4>
-                                <p>We have 2 Years Of Experience In Related Fields</p>
-                                <form action="" method="post">
-                                    <input className='m-2' type="email" name="email" placeholder='your email' required/>
-                                    <input className='mb-2' type="password" name="password" placeholder='
-                                    password' required/> <br/>
-                                    <input className='mb-2' type="text" name="text" placeholder='
-                                    Message' required/> <br/>
-                                    <input type="submit" value="Submit" />
-                                </form>
                             </div>
 
                         </div>

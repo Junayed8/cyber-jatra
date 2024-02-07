@@ -4,23 +4,23 @@ import './contact.css';
 const Contact = () => {
     return (
         <div>
-            <section id="contact" className='m-4'>
-                <div className="container-fluid" data-aos="fade-up">
+            <section id="contact" classNameName='m-4'>
+                <div classNameName="container-fluid" data-aos="fade-up">
 
-                    <div className="section-header">
-                        <h3>Contact Us</h3>
+                    <div classNameName="section-header">
+                        <h3 className='m-3'>Contact Us</h3>
                     </div>
 
                     <div className="row">
 
-                        <div className="col-lg-6 m-5">
+                        <div className="col-lg-12 col-md-5 align-items-center text-center m-5">
                             <div className="form">
                                 <form action="forms/contact.php" method="post" role="form" className="php-email-form">
                                     <div className="row">
-                                        <div className="form-group col-lg-6">
+                                        <div className="form-group col-lg-6 col-md-5">
                                             <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
                                         </div>
-                                        <div className="form-group col-lg-6 mt-3 mt-lg-0">
+                                        <div className="form-group col-lg-6 col-md-5 mt-3 mt-lg-0">
                                             <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
                                         </div>
                                     </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* <div className="col-lg-6 text-center">
+                    {/* <div className="col-lg-6 col-md-5 text-center">
                         <div className="row align-items-end">
                             <div className="col-md-5 info ">
                                 <i className="bi bi-geo-alt"></i>
@@ -57,23 +57,6 @@ const Contact = () => {
                             </div>
                         </div>
                     </div> */}
-
-                    <div class="container text-center">
-                    <div class="row align-items-end">
-                        <div class="col">
-                            <i className="bi bi-envelope sticker"></i>
-                            <p>info@cyberjatra.com</p>
-                        </div>
-                        <div class="col">
-                           <i className="bi bi-geo-alt sticker"></i>
-                            <p>Kafrul, Dhaka</p>
-                        </div>
-                        <div class="col">
-                            <i className="bi bi-phone sticker"></i>
-                            <p>+8801813119559</p>
-                        </div>
-                    </div>
-                    </div>
 
                 </div>
             </section>
